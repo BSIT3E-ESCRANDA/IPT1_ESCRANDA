@@ -1,0 +1,259 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+}
+
+
+body {
+    display: flex;
+    color: white;
+    flex-direction: column; 
+    min-height: 100vh; 
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+}
+
+.navigation img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+.navigation img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s; 
+}
+.nav-buttons {
+    display: flex;
+}
+
+.nav-button {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none; 
+}
+
+.nav-button:hover {
+    background-color: #555; 
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    flex-grow: 1; 
+    padding: 20px;
+}
+.introduction {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: justify;
+}
+
+.profile-section {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    max-width: 40%; 
+}
+
+.profile-section img {
+    max-width: 80%; 
+    height: auto;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-section img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s; 
+}
+
+.profile-section h1 {
+    color: white;
+    margin-top: 0;
+}
+
+.skills-section {
+    flex: 1;
+    padding: 10px;
+    max-width: 60%; 
+    color: white;
+}
+
+.skills-section h2 {
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    height: 100%;
+    transition: width 0.4s ease;
+}
+
+.progress.html {
+    width: 60%;
+    background-color: #e34c26;
+}
+
+.progress.css {
+    width: 70%; 
+    background-color: #264de4;
+}
+
+.progress.java {
+    width: 60%; 
+    background-color: #b07219;
+}
+
+.progress.php {
+    width: 37%; 
+    background-color: #4f5b93;
+}
+
+.contact {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contentt {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 100vh; 
+}   
+
+.about-sectionn {
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 320px;
+}
+
+.about-sectionn h1 {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.about-sectionn h2 {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.about-introductionn {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.personal-infoo {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.personal-infoo p {
+    margin: 10px 0;
+}
+
+.social-mediaa {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-mediaa li {
+    margin: 5px 0;
+}
+
+.social-mediaa a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.social-mediaa a:hover {
+    text-decoration: underline;
+}
+
+
+#contact-infoo {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+  padding: 15px 0;
+  margin-top: auto; 
+}
+
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc; 
+}
+
+
+
+
